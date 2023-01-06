@@ -20,9 +20,9 @@ jobs:
         uses: actions/checkout@v3.3.0
       - name: Build
         working-directory: .
-        run: dotnet build
+        run: dotnet build phoneinfo-maui.sln
       - name: Test
-        run: dotnet test
+        run: dotnet test phoneinfo-maui.sln
 #       - name: Release
 #         run: dotnet publish -c Release
       
