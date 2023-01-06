@@ -10,7 +10,7 @@ on:
        
 jobs:
   build-and-release:
-    runs-on: ubuntu-20.04
+    runs-on: windows-2022
     steps:
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v3.0.3
