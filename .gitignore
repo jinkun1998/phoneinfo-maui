@@ -363,3 +363,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /Visual Studio 2022/Visualizers
+PhoneInfo.MAUI/bin
+.vscode
+.DS_Store
